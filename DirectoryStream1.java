@@ -2,8 +2,7 @@ import java.nio.file.*;
 
 
 class DirectoryStream1 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         if (args.length == 0) {
             System.err.println("Need directory argument.");
             System.exit(1);
