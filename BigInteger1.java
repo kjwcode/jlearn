@@ -12,7 +12,7 @@ public class BigInteger1 {
 
         BigInteger bigint3 = bigint.divide(two);
         System.out.println(bigint3);
-        System.out.format("0x%s\n", bigint3.toString(16));
+        System.out.format("0x%s%n", bigint3.toString(16));
         // Is bigint2 larger than bigint3?
         System.out.println(bigint2.compareTo(bigint3) > 0);
         // Really?
